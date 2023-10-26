@@ -2,7 +2,7 @@
 
 .page {
   --transition-duration: 0.25s;
-
+  background-attachment: fixed;
   background: var(--background-image) no-repeat top center,
     var(--background-color);
   background-size: auto 768px;
@@ -11,9 +11,9 @@
   transition-duration: var(--transition-duration);
 }
 
-/* Header */
 
 .header {
+  width: 100%;
   padding: 0 20px;
   position: relative;
 }
