@@ -3,10 +3,73 @@
   Здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
-
 .page.theme_light {
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --background-color:  #FFF1F7;;
+  --title-text-color:  #FFC2E6;
+  --accent-color:#FF8DCB;
+  --title-text-content-color: #353430;
+  --content-text-color:#353430;
+  --text-shadow-color:#FF0070;
+  
+  background-color: var( --background-color);
+
 }
+.theme_light .header  {
+  background: url(../images/cover-image-light.png), lightgray 50% / cover no-repeat; 
+  color: var(-accent-color);
+}
+
+.theme_light .header .header__theme_content-title,
+.theme_light .footer .header__theme_content-title  {
+color: var( --title-text-color, #FFC2E6);
+text-shadow: 4px 4px 0px var(--text-shadow-color);
+}
+
+.theme_light .header .header__theme_text_content{
+  background:var(--accent-color);
+  color: var(--title-text-content-color);
+}
+
+.theme_light .main .main_section .main_title_text{
+  color: var(--content-text-color);
+}
+
+.theme_light .main .main_section .main_section_part .title-decor
+{
+  color: var(--content-text-color);
+  background: var(--accent-color);
+}
+
+.theme_light .main .main_section .main_section_part .main_content_text{
+  color:var(--content-text-color);
+  
+}
+
+.theme_light .main .main_section .main_section_part .main_content_text .link_text{
+  text-shadow: 4px 4px 0px 4px  var(--accent-color);
+}
+
+
+@media (prefers-color-scheme: light) {
+:root{
+  --accent-color: #ff8dcb;
+  --background-color: #FFF1F7;
+  --content-text-color: #353430;
+}
+.page.theme_light {
+  /* сохраните этот селектор в приведённом виде.
+    Так стили написанные ниже будут иметь больший вес,
+    чем стили в медиазапросе предпочтений пользователя
+  */
+  color: var(--content-text-color);
+  background-color: var(--background-color,#FFF1F7 );
+}
+.header  {
+  background: url(../images/cover-image-light.png), lightgray 50% / cover no-repeat; 
+}
+}
+
