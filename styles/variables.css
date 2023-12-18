@@ -8,11 +8,45 @@
   --md: 768px;
   --lg: 1024px;
 
-  --text-font: "IBM Plex mono";
+  --text-font: "IBM Plex mono", monospace;
+
+  --color-pink1: #FFF1F7;
+  --color-pink2: #F1B2CE;
+  --color-pink3: #ffc2e6;
+  --color-pink4: #FF8DCB;
+
+  --color-purple1: #DB00FF;
+  --color-purple2: #ff0070;
+
+  --color-dark1: #000028;
+  --color-dark2: #353430;
+
+
+  --background-color: var(--color-pink1, #FFF1F7);
+  --background-image: url("../images/cover-image.png");
+
+  --content-text-color:var(--color-dark2,#353430);
+  --title-text-color: var( --color-pink3, #ffc2e6);
+  --title-text-shadow-color:var(--color-pink4, #ff8dcb);
+  --title-text-content-color:var( --color-dark2, #353430);
+  --text-section:var( --color-dark2, #353430);
+ 
+ 
+ 
+  --accent-color:var( --color-pink4, #FF8DCB);
+
+
+
+
+  --text-shadow-color:#FF0070;
+  
+ 
+
+
+
+
+  --rec-decor-visibility: visible;
   
 }
 
 
-@media (max-width: var(--md)) {}
-@media ( width  <= var(--md)) and (width < var(--lg)) {}
-@media (min-width: var(--lg)) {}

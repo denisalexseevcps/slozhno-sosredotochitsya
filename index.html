@@ -4,18 +4,24 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
-    <link rel="stylesheet" href="./styles/variables.css">
-<link rel="stylesheet" href="./styles/style.css">
-<link rel="stylesheet" href="./styles/dark.css">
-<link rel="stylesheet" href="./styles/light.css"> 
-<link rel="stylesheet" media="(prefers-color-scheme: light)" href="./styles/light.css">
-<link rel="stylesheet" media="(prefers-color-scheme: dark)" href="./styles/dark.css">
     <meta name="color-scheme" content="dark light">
+    <link href="./images/favicon.ico" rel="icon" sizes="any" />
+    <link rel="stylesheet" href="./fonts/fonts.css">
+
+    <link rel="stylesheet" href="./styles/variables.css">
+
+    <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/dark.css">
+
+    <link rel="stylesheet" href="./styles/light.css"> 
+
+  
     <title>Сложно сосредоточиться</title>
   </head>
   <body class="page">
-    <header class="header decorated-zone">
+    <header class="header decorated-zone ">
+      <div class="rec-decor"></div>
       <nav class="header__theme-menu">
         <ul class="header__theme-menu-list">
           <li class="header__theme-menu-item">
@@ -46,7 +52,7 @@
         no focus
       </h1>
       <p class="header__theme_text_content">
-        Что делать, когда не можешь делать ничего
+        Что делать, когда не можешь делать ничего <br/>
         Или почему нам так сложно сконцентрироваться, особенно когда очень надо
       </p>
     </header>
@@ -55,9 +61,10 @@
     <main class="main main_theme_decorated-zone">
       <section class="main_section">
         <h2 class="main_title_text">
-          Почему сосредоточиться так сложно
+          Почему  сосредоточиться  так  сложно
         </h2>
         <div class="main_section_part">
+          <article class="article">
         <h3 class="main_title_text title-decor">
           Многозадачность
         </h3>
@@ -65,13 +72,20 @@
           Особенно сложно сосредоточиться, когда задач много и все они — важные. 
           Где же легендарная многозадачность, когда она так нужна вам (и всем нанимающим менеджерам этого мира)? 
           А дело в том, что её просто не существует. 
-          Исследователи <span class="link_text"> выяснили</span>, что мозгу тяжело концентрироваться даже на двух делах одновременно. 
+          Исследователи <a
+          class="link link-decor"
+          href="https://dana.org/article/multicosts-of-multitasking/"
+          target="_blank"
+          > выяснили</a>, что мозгу тяжело концентрироваться даже на двух делах одновременно. 
           А когда в поле внимания попадает несколько важных задач, 
           организм паникует и выделяет кортизол и адреналин — «гормоны стресса». 
           Из-за этого мы работаем невнимательно: ошибаемся и быстро устаём.
         </p>
+      </article>
       </div>
+      
       <div class="main_section_part">
+        <article class="article">
         <h3 class="main_title_text title-decor">
           Дофамин
         </h3>
@@ -85,14 +99,17 @@
           В это время и выделяется дофамин — и мы чувствуем удовольствие. 
           Получается замкнутый круг: чем больше отвлекаешься, тем больше удовольствия получаешь.
         </p>
+      </article>
       </div>
       </section>
 
-      <section class="main_section">
+      <section class="main_section second_section">
         <h2 class="main_title_text ">
           Что снижает концентрацию внимания?
         </h2>
-        <div class="main_section_part">
+          <ul class="main_section_part section-what__articles-list">
+            <li>
+          <article class="article">
         <h3 class="main_title_text title-decor">
           Многозадачность
         </h3>
@@ -104,8 +121,10 @@
           Но быть собранными всё время — невозможно. 
           Концентрация — мышца, и она может не выдержать, если не давать ей отдохнуть.
         </p>
-      </div>
-      <div class="main_section_part">
+      </article>
+    </li>
+      <li>
+        <article class="article">
         <h3 class="main_title_text title-decor">
           Еда
         </h3>
@@ -115,9 +134,11 @@
           Но уходит эта энергия также быстро, как и приходит. 
           А мы в результате попадаем на «углеводные качели»: как только действие «быстрых углеводов» заканчивается, 
           мы чувствуем усталость и сонливость. И хотим ещё больше быстрых углеводов.
+        </article>
         </p>
-      </div>
-      <div class="main_section_part">
+      </li>
+      <li>
+        <article class="article">
         <h3 class="main_title_text title-decor">
           Гаджеты
         </h3>
@@ -128,7 +149,9 @@
           А чтобы вернуться к состоянию полной концентрации, человеку в среднем нужно 20 минут. 
           Вот и получается, что чем больше времени мы проводим в гаджетах, тем больше времени затем нужно, чтобы вернуться к работе.
         </p>
-      </div>
+      </article>
+    </li>
+  </ul>
       </section>
 
       <section class="main_section">
@@ -136,6 +159,7 @@
           Как концентрироваться лучше, чем золотая рыбка (то есть дольше трёх секунд)
         </h2>
         <div class="main_section_part">
+          <article class="article">
           <h3 class="main_title_text title-decor">
             5 простых (на самом деле не очень) советов
           </h3>
@@ -153,8 +177,10 @@
             Это упражнение поможет вернуться в настоящий момент, 
             а не волноваться о потенциальных проблемах из будущего.
           </p>
+        </article>
         </div>
         <div class="main_section_part">
+          <article class="article">
           <h3 class="main_title_text title-decor">
             Включите музыку
           </h3>
@@ -162,8 +188,10 @@
             Но не любую, и не любимую. Любимая может быть связана с сильными положительными эмоциями, 
             которые тоже очень сильно отвлекают. Подойдёт тихая, спокойная, умеренно-ритмичная. Можно вообще попробовать включить плейлист в «белым шумом» или нейромузыкой.
           </p>
+        </article>
         </div>
         <div class="main_section_part">
+          <article class="article">
           <h3 class="main_title_text title-decor">
             Прогуляйтесь
           </h3>
@@ -174,8 +202,10 @@
             или бегом — так в мозг поступит ещё больше кислорода и он будет лучше работать. 
             Но и простая двадцатиминутная прогулка — тоже отличный вариант.
           </p>
+        </article>
         </div>
         <div class="main_section_part">
+          <article class="article">
           <h3 class="main_title_text title-decor">
             Хорошо ешьте
           </h3>
@@ -184,8 +214,10 @@
             Например, с высоким содержанием клетчатки: овощи, ягоды, бобовые (нут, чечевица, фасоль), коричневый рис, 
             хлеб из цельнозерновой пшеницы.
           </p>
+        </article>
         </div>
         <div class="main_section_part">
+          <article class="article">
           <h3 class="main_title_text title-decor">
             Читайте
           </h3>
@@ -194,43 +226,44 @@
             достаточно нескольких минут или даже секунд. А вот интересная книга способна затянуть и на несколько 
             часов и круто тренирует направленное внимание.
           </p>
+        </article>
         </div>
       </section>
 
-      <section class="main_section">
+      <section class="main_section section_images">
         <h2 class="main_title_text title-decor">
           А можно в картинках?
         </h2>
         <ul class="image_content">
-          <li >
+          <li class="image_content_item">
             <img class="gallery__img"
               src="images/sunset.png"
               alt="Стилизованная картинка в фиолетовых тонах, изображающая закат, горы и море."
               loading="lazy"
             />
           </li>
-          <li >
+          <li class="image_content_item">
             <img class="gallery__img"
               src="images/ice-cream.png"
               alt="Стилизованная картинка с фиолетовым фоном, изображающая глубокую тарелку с мороженым. Каждый кусочек мороженого имеет смайлик с разными эмоциями."
               loading="lazy"
             />
           </li>
-          <li>
+          <li class="image_content_item">
             <img class="gallery__img"
               src="images/tape.png"
               alt="Стилизованная картинка в фиолетово-синих тонах, изображающая аудио касету и разные компьютерные ярлыки."
               loading="lazy"
             />
           </li>
-          <li >
+          <li class="image_content_item">
             <img class="gallery__img"
               src="images/books.png"
               alt="Стилизованная картинка в светло-фиолетовых тонах, изображающая стопку книг и чашку кофе наверху."
               loading="lazy"
             />
           </li>
-          <li>
+          <li class="image_content_item">
             <img class="gallery__img"
               src="images/street.png"
               alt="Стилизованная картинка в светло-фиолетовых тонах, изображающая улицу."
@@ -242,7 +275,7 @@
       
 
     </main>
-    <footer class="footer">
+    <footer class="footer  decorated-zone">
       <p class="header__theme_content-title text_size_footer">focus</p>
     </footer>
     <script src="./scripts/script.js"></script>
