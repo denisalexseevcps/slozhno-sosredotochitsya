@@ -62,7 +62,7 @@
   transition: border-block-end-color 2s;
 }
 
-.link:hover {  
+.link:hover {
   border-block-end-color: currentColor;
 }
 
