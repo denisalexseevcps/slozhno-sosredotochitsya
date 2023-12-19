@@ -12,7 +12,7 @@
   --rec-decor-visibility: visible;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --text-color: var(--color-pink-a, #f1b2ce);
     --f-color: var(--c-purple-1, #db00ff);
@@ -26,4 +26,4 @@
 
     --rec-decor-visibility: visible;
   }
-}
+} */
