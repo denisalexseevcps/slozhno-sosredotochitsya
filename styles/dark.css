@@ -1,9 +1,9 @@
 .page.theme_dark {
-  --text-color: var(--color-pink-2, #f1b2ce);
-  --brand-color: var(--color-purple-1, #db00ff);
-  --secondary-color: var(--color-purple-2, #ff0070);
-  --secondary-color-o-40: var(--color-purple-2-o-40, #ff007040);
-  --accent-color: var(--color-purple-2, #ff0070);
+  --text-color: var(--color-pink-a, #f1b2ce);
+  --f-color: var(--c-purple-1, #db00ff);
+  --secondary-color: var(--c-purple-2, #ff0070);
+  --secondary-color-o-40: var(--c-purple-2-o-40, #ff007040);
+  --accent-color: var(--c-purple-2, #ff0070);
   --highlight-color: var(--color-black-1, #000028);
 
   --page-background-color: var(--color-black-1, #000028);
@@ -14,11 +14,11 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --text-color: var(--color-pink-2, #f1b2ce);
-    --brand-color: var(--color-purple-1, #db00ff);
-    --secondary-color: var(--color-purple-2, #ff0070);
-    --secondary-color-o-40: var(--color-purple-2-o-40, #ff007040);
-    --accent-color: var(--color-purple-2, #ff0070);
+    --text-color: var(--color-pink-a, #f1b2ce);
+    --f-color: var(--c-purple-1, #db00ff);
+    --secondary-color: var(--c-purple-2, #ff0070);
+    --secondary-color-o-40: var(--c-purple-2-o-40, #ff007040);
+    --accent-color: var(--c-purple-2, #ff0070);
     --highlight-color: var(--color-black-1, #000028);
 
     --page-background-color: var(--color-black-1, #000028);

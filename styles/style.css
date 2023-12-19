@@ -100,7 +100,7 @@
 }
 
 .page-title {
-  color: var(--brand-color, #db00ff);
+  color: var(--f-color, #db00ff);
   font-weight: 700;
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   line-height: 82.5%;
@@ -155,10 +155,6 @@
   inline-size: 100%;
 }
 
-/* #endregion Конец глобальных компонентов */
-
-/* #region Начало блока header */
-
 .header {
   align-items: start;
 }
@@ -211,25 +207,15 @@
   background: var(--accent-color, #ff0070);
 }
 
-/* #endregion Конец блока header */
-
-/* #region Начало блока main */
-
 .main {
   display: grid;
   gap: 50px;
   padding: 40px 10px;
 }
 
-/* #endregion Конец блока main */
-
-/* #region Начало блока footer */
-
 .footer {
   place-items: center;
 }
-
-/* #endregion Конец блока footer */
 
 @media (width >= 768px) {
   .rec-decor {
@@ -295,7 +281,7 @@
 
 @media (width >= 1024px) {
   .page-title {
-    text-shadow: 4px 4px 0 var(--color-purple-2, #ff0070);
+    text-shadow: 4px 4px 0 var(--c-purple-2, #ff0070);
   }
 
   .section {

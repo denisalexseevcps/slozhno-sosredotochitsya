@@ -1,22 +1,22 @@
 :root {
-  --color-pink-1: #fff1f7;
-  --color-pink-2: #f1b2ce;
-  --color-pink-3: #ffc2e6;
-  --color-pink-4: #ff8dcb;
+  --c-purple-1: #db00ff;
+  --c-purple-2: #ff0070;
+  --c-purple-2-o-40: #ff007040;
 
-  --color-purple-1: #db00ff;
-  --color-purple-2: #ff0070;
-  --color-purple-2-o-40: #ff007040;
+  --color-pink-f: #fff1f7;
+  --color-pink-a: #f1b2ce;
+  --pinc-c: #ffc2e6;
+  --clolr_pink: #ff8dcb;
 
   --color-black-1: #000028;
   --color-black-2: #353430;
   --color-black-2-o-40: #35343040;
 
-  --text-color: var(--color-pink-2, #f1b2ce);
-  --brand-color: var(--color-purple-1, #db00ff);
-  --secondary-color: var(--color-purple-2, #ff0070);
-  --secondary-color-o-40: var(--color-purple-2-o-40, #ff007040);
-  --accent-color: var(--color-purple-2, #ff0070);
+  --text-color: var(--color-pink-a, #f1b2ce);
+  --f-color: var(--c-purple-1, #db00ff);
+  --secondary-color: var(--c-purple-2, #ff0070);
+  --secondary-color-o-40: var(--c-purple-2-o-40, #ff007040);
+  --accent-color: var(--c-purple-2, #ff0070);
   --highlight-color: var(--color-black-1, #000028);
 
   --page-font-family: "IBM Plex mono", monospace;
