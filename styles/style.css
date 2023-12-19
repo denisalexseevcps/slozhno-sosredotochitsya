@@ -59,6 +59,7 @@
 .link {
   text-decoration: none;
   border: 1px solid transparent;
+  transition: border-block-end-color 2s;
 }
 
 .link:hover {  
@@ -187,6 +188,7 @@
   text-transform: lowercase;
   background: transparent;
   cursor: pointer;
+  transition: border-color 2s;
 }
 
 .header__theme-menu-button_active {
