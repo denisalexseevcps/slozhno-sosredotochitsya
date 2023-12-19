@@ -71,8 +71,7 @@
 }
 
 .link:focus-visible {
-  outline: 1px solid currentColor; 
- 
+  outline: 1px solid currentColor;  
 }
 
 .rec-decor {
