@@ -58,10 +58,11 @@
 
 .link {
   text-decoration: none;
+  border: 1px solid transparent;
 }
 
-.link:hover {
-  text-decoration: underline;
+.link:hover {  
+   border-block-end-color: currentColor;
 }
 
 .link:focus {
@@ -69,7 +70,8 @@
 }
 
 .link:focus-visible {
-  outline: 1px solid currentColor;
+  outline: 1px solid currentColor; 
+ 
 }
 
 .rec-decor {
@@ -117,6 +119,13 @@
 .title-decor {
   color: var(--highlight-color, #000028);
   background: var(--accent-color, #ff0070);
+}
+
+.title-p {
+  font-weight: 400;
+  font-size: inherit;
+  line-height: inherit;
+  
 }
 
 .section {
